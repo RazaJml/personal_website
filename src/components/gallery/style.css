@@ -9,6 +9,7 @@
 }
 
 .gallery h1{
+    src: url('http://fonts.cdnfonts.com/css/great-slave');
     font-family: 'Great Slave', sans-serif;
     letter-spacing: 10px;
     text-align: center;
