@@ -1,0 +1,34 @@
+@import url('http://fonts.cdnfonts.com/css/great-slave');
+@import url('http://fonts.cdnfonts.com/css/aseline-script');
+@import url('http://fonts.cdnfonts.com/css/chedros');
+@import url('http://fonts.cdnfonts.com/css/aprilio-hope');
+
+.hero_container{
+    width: 80%;
+    margin: 13% auto;
+    text-align: center;
+}
+
+.hero_container h1{
+    font-size: 60px;
+    font-family: 'Great Slave', sans-serif;
+}
+
+.hero_container button{
+    margin: 100px auto;
+    padding: 10px 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: black;
+    color: white;
+    font-family: 'Aprilio Hope', sans-serif;
+    letter-spacing: 10px;
+    transition: 0.5s;
+    font-size: 17px;                                                
+    border-radius: 2px;
+}
+
+.hero_container button:hover{
+    background: transparent;
+    color: black;
+}

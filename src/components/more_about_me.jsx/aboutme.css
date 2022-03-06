@@ -1,0 +1,29 @@
+@import url('http://fonts.cdnfonts.com/css/great-slave');
+
+
+.who-am-i{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.who_am_i_container{
+    width: 100%;
+}
+
+.who_am_i_container h1{
+    letter-spacing: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Great Slave', sans-serif;
+}
+
+
+.who_am_i_container p{
+    font-family: 'Aprilio Hope', sans-serif;
+    font-size: 20px;
+}
+
+.who_am_i_container div{
+    width: 90%;
+    margin: 4px auto;
+}

@@ -1,0 +1,72 @@
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@import url('http://fonts.cdnfonts.com/css/aseline-script');
+@import url('http://fonts.cdnfonts.com/css/great-slave');
+
+.logo-container{
+    width: 60%;
+    margin-top: 10px;
+    text-align: right;
+    font-family: 'Aseline Script', sans-serif;
+    font-family: 'Great Slave', sans-serif;
+
+}
+
+.logo{
+    margin-right: 20px;
+}
+
+.sidebar-toggle-btn-container{
+    /* font-size: 10px; */
+    width: 30%;
+    margin-top: 10px;
+}
+
+.toggle-btn{
+    height: 25px;
+    float: right;
+    width: 15px;
+    display: flex;
+    justify-content: space-between;
+    transform: rotate(50deg);
+    margin-right: 100px;
+    cursor: pointer;
+    margin-top: 23px;
+}
+
+.toggle-btn-side-1{
+    height: 100%;
+    width: 20%;
+
+    background: rgb(0, 0, 0);
+}
+
+.toggle-btn-side-2{
+    height: 100%;
+    width: 20%;
+    margin-top: 7px;
+    background: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.toggle-btn-side-2:hover{
+    margin-top: 0px;
+}
+
+.toggle-btn-side-3{
+    height: 100%;
+    width: 20%;
+
+    background: rgb(0, 0, 0);
+}
+
+/* Logo Designing */
+
+.logo-container span{
+    font-size: 28px;
+}

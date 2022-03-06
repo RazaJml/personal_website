@@ -1,0 +1,41 @@
+@import url('http://fonts.cdnfonts.com/css/great-slave');
+@import url('http://fonts.cdnfonts.com/css/aseline-script');
+@import url('http://fonts.cdnfonts.com/css/chedros');
+@import url('http://fonts.cdnfonts.com/css/aprilio-hope');
+
+.gallery{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallery h1{
+    font-family: 'Great Slave', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.photos_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    cursor: pointer;
+    transition: 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.photo:hover{
+    transform: scale(1.2);
+    filter: none;
+}
